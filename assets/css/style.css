@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body.dark{
+   background-color:#000000; 
+   
+}
+body.light{
+    background-color:#a8ccf0;
+}
+.section-button{
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding:2%;
+    position:absolute;
+    right:20px;
+    top:15px;
+    transition:all 0.3s ease 0s;
+}
+.box-button{
+    display:inline-flex;
+    justify-content: flex-end;
+    background-color:#344fc7;
+    padding: 2px 5px;
+    border-radius:30px;
+    margin:0 15px;
+    width:80px;
+    border:1px solid #00082f;
+    transition: 0.5s;
+}
+#black{
+    color:#000;
+    background-color:#fff;
+    display:block;
+    position:relative;
+    right:40px;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    border:0;
+    font-weight:bold;
+    font-size:12px;
+    cursor:pointer;
+    border:2px solid #00082f;
+    transition:0.5s;
+}
+#white{
+    color:#000;
+    background-color:#fff;
+    display:none;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    position:relative;
+    border:2px solid #00082f;
+    font-weight:bold;
+    font-size:12px;
+    cursor:pointer;
+    transition:all 1s ease 0.5s;
+}
+.container{
+    margin:30px auto 0;
+    max-width:300px;
+    text-align:center;
+   
+}
+.container img{
+   width:100px;
+   height:100px;
+   border-radius:50%;
+   border:4px solid #4263eb;
+   padding:3.7px;
+}
+.container h1{
+    margin-top:24px;
+    margin-bottom:8px;
+    font-size:32px;
+    color:#00082f;
+    font-style:italic;
+    text-shadow:1px 1px 3px #999;
+}
+.container p{
+  font-family: 'Roboto Mono', monospace;
+  color:#ccc;
+  opacity:0.8;
+  font-size:18px;
+  transition:all 0.3s ease 0s;
+}
+
+.container ul{
+    list-style-type:none;
+    margin:48px 0;
+
+}
+
+
+.container ul li a{
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:53px;
+    background-color:#4263eb;
+    margin:10px 0;
+    border-radius:5px;
+    text-transform:uppercase;
+    font-size:14px;
+    color:#fff;
+    box-shadow:1px 1px 4px #fff;
+    
+}
+.container ul li a:hover{
+  background-color:#344fc7;
+  box-shadow:2px 2px 6px #fff;
+  
+}
+
+footer{
+    padding:10px 0;
+}
+
+footer a{
+    text-decoration:none;
+    font-weight:500;
+    font-size:12px;
+    color:#00082f;
+    text-shadow: 0 0 10px #fff;
+    opacity:0.6;
+    transition:all ease 0.5s;
+}
+footer a:hover{
+ opacity:1;
+}
